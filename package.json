@@ -1,0 +1,11 @@
+{
+  "name": "pubget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sadnessOjisan/pubget.git",
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^15.0.2"
+  }
+}
