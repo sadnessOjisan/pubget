@@ -4,4 +4,14 @@ get public func.
 
 ## how to use
 
-TODO
+install target library.
+
+```
+$ npm install -D react
+```
+
+inspect library
+
+```
+node index.js react
+```

@@ -1,13 +1,18 @@
 {
   "name": "pubget",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/sadnessOjisan/pubget.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
     "react": "^16.12.0",
-    "vue": "^2.6.10",
-    "yargs": "^15.0.2"
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "styled-components": "^4.4.1",
+    "vue": "^2.6.10"
   }
 }
