@@ -1,5 +1,5 @@
-const yargs = require("yargs");
-const react = require("react");
+const lib = process.argv[2];
+const react = require(lib);
 
 const names = [];
 const resolveObject = obj => {
@@ -16,7 +16,7 @@ const resolveObject = obj => {
   }
 };
 
-resolveObject(yargs);
+resolveObject(react);
 
 const result = Array.from(new Set(names));
 const resultMap = {};
