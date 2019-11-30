@@ -6,6 +6,7 @@
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "react": "^16.12.0",
     "yargs": "^15.0.2"
   }
 }
