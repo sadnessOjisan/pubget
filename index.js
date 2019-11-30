@@ -1,5 +1,5 @@
-const lib = process.argv[2];
-const react = require(lib);
+const libName = process.argv[2];
+const lib = require(libName);
 
 const names = [];
 const resolveObject = obj => {
@@ -16,7 +16,7 @@ const resolveObject = obj => {
   }
 };
 
-resolveObject(react);
+resolveObject(lib);
 
 const result = Array.from(new Set(names));
 const resultMap = {};
