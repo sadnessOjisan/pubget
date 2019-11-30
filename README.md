@@ -1,2 +1,7 @@
 # pubget
-public関数を取得する
+
+get public func.
+
+## how to use
+
+TODO
