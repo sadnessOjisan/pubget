@@ -1,7 +1,7 @@
 const libName = process.argv[2];
 const lib = require(libName);
 
-const names = [];
+const names = [libName];
 const resolveObject = obj => {
   for (key in obj) {
     names.push(key);
