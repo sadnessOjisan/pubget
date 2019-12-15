@@ -6,13 +6,6 @@
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.17.1",
-    "jest": "^24.9.0",
-    "lodash": "^4.17.15",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router": "^5.1.2",
-    "styled-components": "^4.4.1",
-    "vue": "^2.6.10"
+    "react": "^16.12.0"
   }
 }
